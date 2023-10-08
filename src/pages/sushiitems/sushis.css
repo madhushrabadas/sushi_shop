@@ -1,0 +1,36 @@
+.sushi-list {
+  /* background-color: #e41b1b; */
+  /* display: flex;
+    justify-content: space-evenly; */
+border: 1px solid var(--primary-color);
+border-radius: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* margin: auto; */
+}
+.sushi-item{
+    /* background-color: #52c43e; */
+    margin: auto;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.imgcard{
+    height: 8rem;
+    width: 12rem;
+    border-radius: 1rem;
+}
+
+.addtocart{
+    background-color:var(--primary-color);
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1em 0;
+    /* margin: auto; */
+
+}
+
+
+
+

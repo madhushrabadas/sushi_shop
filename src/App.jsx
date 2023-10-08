@@ -4,14 +4,15 @@ import About from "./components/aboutus/About";
 import Popular from "./components/popfood/Popular";
 import Trending from "./components/trending/Trending";
 import Subscribe from "./components/subscribe/Subscribe";
-import Footer from "./components/footer/Footer";
+import Footer from "./components/footer/Footer"; 
+import Sushis from "./pages/sushiitems/Sushis";
 
 function App() {
   return (
     <>
       <Navbar />
 
-      <Hero />
+      {/* <Hero />
 
       <About />
 
@@ -19,7 +20,8 @@ function App() {
 
       <Trending />
       <Subscribe />
-      <Footer />
+      <Footer /> */}
+      <Sushis/>
     </>
   );
 }
