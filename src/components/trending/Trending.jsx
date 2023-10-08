@@ -2,8 +2,13 @@ import React from "react";
 
 import "./trending.css";
 
-// import star from "../../assets/star.svg" 
-import check from "../../assets/check.svg" 
+import check from "../../assets/check.svg";
+import s5 from "../../assets/sushi-5.png";
+import s4 from "../../assets/sushi-4.png";
+import av from "../../assets/arrow-vertical.svg";
+import ah from "../../assets/arrow-horizontal.svg";
+// import check from "../../assets/check.svg";
+// import check from "../../assets/check.svg";
 
 const Trending = () => {
   return (
@@ -60,14 +65,14 @@ const Trending = () => {
           </div>
 
           <div class="trending__image flex-center">
-            <img src="assets/sushi-5.png" alt="sushi-5" data-aos="fade-left" />
+            <img src={s5} alt="sushi-5" data-aos="fade-left" />
 
             <div class="trending__arrow trending__arrow-left">
-              <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+              <img src={av} alt="arrow vertical" />
             </div>
 
             <div class="trending__arrow trending__arrow-bottom">
-              <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+              <img src={ah} alt="arrow horizontal" />
             </div>
           </div>
         </section>
@@ -78,14 +83,14 @@ const Trending = () => {
 
         <section class="trending-drinks">
           <div class="trending__image flex-center">
-            <img src="assets/sushi-4.png" alt="sushi-4" data-aos="fade-right" />
+            <img src={s4} alt="sushi-4" data-aos="fade-right" />
 
             <div class="trending__arrow trending__arrow-top">
-              <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+              <img src={ah} alt="arrow horizontal" />
             </div>
 
             <div class="trending__arrow trending__arrow-right">
-              <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+              <img src={av} alt="arrow vertical" />
             </div>
           </div>
 

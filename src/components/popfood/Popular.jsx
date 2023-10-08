@@ -9,6 +9,7 @@ import s11 from "../../assets/sushi-11.png"
 import s10 from "../../assets/sushi-10.png" 
 import s12 from "../../assets/sushi-12.png" 
 import star from "../../assets/star.svg" 
+import ar from "../../assets/arrow-right.svg" 
  
 const Popular = () => {
   return (
@@ -100,7 +101,7 @@ const Popular = () => {
 
         <button class="popular-foods__button">
           Explore Food
-          <img src="assets/arrow-right.svg" alt="arrow-right" />
+          <img src={ar} alt="arrow-right" />
         </button>
       </section>
     </div>

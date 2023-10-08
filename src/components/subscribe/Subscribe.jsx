@@ -9,7 +9,7 @@ const Subscribe = () => {
           Get offers stright <br />
           to your inbox
         </h2>
-        <p data-aos="fade-up">Sign up for the Sushiman newsletter</p>
+        <p data-aos="fade-up">Sign up for the Sushimama newsletter</p>
 
         <div class="subscription__form" data-aos="fade-up">
           <input type="text" placeholder="Enter your email address" />

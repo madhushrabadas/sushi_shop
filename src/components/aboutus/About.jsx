@@ -1,23 +1,27 @@
 import React from 'react' 
 
 import './about.css'
+import s2 from "../../assets/sushi-2.png" 
+import s3 from "../../assets/sushi-3.png" 
+import aur from "../../assets/arrow-up-right.svg" 
+
 
 const About = () => {
   return (
     <div> <section class="about-us" id="about-us">
     <div class="about-us__image">
       <div class="about-us__image-sushi3">
-        <img src="assets/sushi-3.png" alt="sushi" data-aos="fade-right" />
+        <img src={s3} alt="sushi" data-aos="fade-right" />
       </div>
 
       <button class="about-us__button">
         Learn More
 
-        <img src="assets/arrow-up-right.svg" alt="learn more" />
+        <img src={aur} alt="learn more" />
       </button>
 
       <div class="about-us__image-sushi2">
-        <img src="assets/sushi-2.png" alt="sushi" data-aos="fade-right" />
+        <img src={s2} alt="sushi" data-aos="fade-right" />
       </div>
     </div>
 

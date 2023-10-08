@@ -12,7 +12,7 @@ const Footer = () => {
       {" "}
       <footer class="footer flex-between">
         <h3 class="footer__logo">
-          <span>Sushi</span>man
+          <span>Sushi</span>mama
         </h3>
 
         <ul class="footer__nav">

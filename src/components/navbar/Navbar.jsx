@@ -1,45 +1,49 @@
-import React from 'react'
+import React from "react";
 
+import search from "../../assets/search.svg";
 
-import './navbar.css'
+import "./navbar.css";
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
-         <header>
-      <nav class="header__nav">
-        <div class="header__logo">
-          <h4 data-aos="fade-down">Sushiman</h4>
-          <div class="header__logo-overlay"></div>
-        </div>
+    <div className="navbar">
+      <header>
+        <nav class="header__nav">
+          <div class="header__logo">
+            <h4 data-aos="fade-down">Sushimama</h4>
+            <div class="header__logo-overlay"></div>
+          </div>
 
-        <ul class="header__menu" data-aos="fade-down">
-          <li>
-            <a href="#menu">Menu</a>
-          </li>
-          <li>
-            <a href="#food">Food</a>
-          </li>
-          <li>
-            <a href="#services">Services</a>
-          </li>
-          <li>
-            <a href="#about-us">About Us</a>
-          </li>
-          <li>
-            <img src="assets/search.svg" alt="search" />
-          </li>
-        </ul>
+          <ul class="header__menu" data-aos="fade-down">
+            <li>
+              <a href="#menu">Menu</a>
+            </li>
+            <li>
+              <a href="#food">Food</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#about-us">About Us</a>
+            </li>
+            <li>
+              <img src={search} alt="search" />
+            </li>
+            <li>
+              <a href="#about-us">Cart</a>
+            </li>
+          </ul>
 
-        <ul class="header__menu-mobile" data-aos="fade-down">
-          <li>
-            <img src="assets/menu.svg" alt="menu" />
-          </li>
-        </ul>
-      </nav>
-    </header>
+          <ul class="header__menu-mobile" data-aos="fade-down">
+            <li>
+              <img src="assets/menu.svg" alt="menu" />
+            </li>
+          </ul>
+        </nav>
+      </header>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
