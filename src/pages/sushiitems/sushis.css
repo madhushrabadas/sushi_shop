@@ -2,35 +2,65 @@
   /* background-color: #e41b1b; */
   /* display: flex;
     justify-content: space-evenly; */
-border: 1px solid var(--primary-color);
-border-radius: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   /* margin: auto; */
 }
-.sushi-item{
-    /* background-color: #52c43e; */
-    margin: auto;
-    margin: 1rem;
-    padding: 1rem;
+.sushi-item {
+  /* background-color: #52c43e; */
+  margin: auto;
+  margin: 1rem;
+  padding: 1rem;
 }
 
-.imgcard{
-    height: 8rem;
-    width: 12rem;
-    border-radius: 1rem;
+.imgcard {
+  height: 8rem;
+  width: 12rem;
+  border-radius: 1rem;
 }
 
-.addtocart{
-    background-color:var(--primary-color);
-    color: #ffffff;
-    border-radius: 1rem;
-    padding: 1rem;
-    margin: 1em 0;
-    /* margin: auto; */
-
+.addtocart {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1em 0;
+  /* margin: auto; */
 }
 
+.h1sushi {
+  padding: 1rem;
+  margin: 1rem;
+  color: var(--primary-color);
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+}
 
-
-
+.search {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  align-items: center;
+}
+.searchinp {
+  /* background-color: #af0d0d; */
+  border-radius: 1rem;
+  height: 2rem;
+  width: 12rem;
+}
+.rightsrc {
+  /* background-color: #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 12px;
+}

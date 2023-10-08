@@ -1,6 +1,5 @@
 import React from "react";
 
-import search from "../../assets/search.svg";
 
 import "./navbar.css";
 
@@ -27,9 +26,7 @@ const Navbar = () => {
             <li>
               <a href="#about-us">About Us</a>
             </li>
-            <li>
-              <img src={search} alt="search" />
-            </li>
+           
             <li>
               <a href="#about-us">Cart</a>
             </li>
